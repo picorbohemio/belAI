@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+#root{
+    width: 100%;
+    display: inline-flex;
+}
+
+.grid-flex{
+    display: flex;
+    gap: 48px;
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+
+.pb-48{
+    padding-bottom: 48px;
+}
+
+.pb-80{
+    padding-bottom: 80px;
+}
+.pt-120{
+    padding-top: 120px;
+}
+.pt-180{
+    padding-top: 180px;
+}
+
+
+.scroll{
+    overflow-y: scroll
+}
+
+textarea{
+    width: 100%;
+    margin-right: 24px;
+    height: 112px;
+    border-radius: 30px;
+    padding: 24px;
+    border: 1px solid #D2CFCF;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Bricolage Grotesque', 'Inter', monospace;
+}
+
+.text-left{
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.text-right{
+    padding-bottom: 40px;
+    text-align: right;
+}
+
+.text-right h3 {
+    background-color: rgb(237, 234, 242);
+    border-radius: 1px solid rgb(139, 125, 162);
+    padding: 12px 24px;
+    font-size: 18px;
+    display: inline;
+    border-radius: 40px;
+}

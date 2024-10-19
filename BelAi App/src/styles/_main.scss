@@ -1,0 +1,35 @@
+main{
+    width: calc(100% - 349px);
+    position: fixed;
+    right: 0;
+    margin: 0px;
+    top: 0;
+}
+
+.main-content .content{
+    padding: 64px 64px 0 64px;
+    height: calc(100vh - 260px);
+    background-color: #fff;
+    font-size: 20px;
+
+}
+.prompt{
+    position: fixed;
+    bottom: 0;
+    height: 140px;
+    width: calc(100% - 390px);
+    background-color: #eee;
+    padding: 12px 24px 40px 24px;
+    display: flex;
+}
+
+.fixed-logo{
+    position: fixed;
+    right: 0;
+    height: 180px;
+    padding-top: 60px;
+    padding-left: 60px;
+    top: 0;
+    width: calc(100% - 409px);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(255,255,255,0) 100%);
+}

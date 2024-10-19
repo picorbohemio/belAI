@@ -1,0 +1,38 @@
+.btn{
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Bricolage Grotesque";
+    text-decoration: none;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    display: inline-flex
+}
+
+.btn-secondary{
+    padding: 25px 42px;
+    border: 1px solid #5956FC;
+    background-color: #FFFFFF;
+    color: #5956FC;
+    border-radius: 48px 48px 10px 48px;
+}
+
+.btn-secondary:hover{
+    border: 1px solid #3b39b7;
+    background-color: #f2f2f9;
+    color: #3b39b7;
+    border-radius: 48px 48px 10px 48px;
+}
+
+.btn-rounded-primary{
+    background-color: #5956FC;
+    display: block;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    align-content: center;
+}
+
+.btn-rounded-primary:hover{
+    background-color: #232345;
+}

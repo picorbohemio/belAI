@@ -1,0 +1,72 @@
+.sidebar {
+    z-index: 25;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    padding: 24px;
+    height: 100vh;
+    width: 300px;
+    text-align: center;
+    background-color: #F5F5F6;
+    border-right:1px solid #DADAE3;
+    transition: left 0.25s, background-color 0.25s, box-shadow 0.25s;
+    ul{
+      text-align: center;
+      padding: 0;
+    }
+    .admin-user{
+      margin: 0 auto;
+      display: inline-flex;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      font-family: "Bricolage Grotesque";
+      .avatar{
+        width: 40px;
+        height: 40px;
+        padding-right: 10px;
+      }
+    }
+    
+    li {
+      list-style: none;
+      text-align: left;
+    }
+    li a{
+      text-align: left;
+      width: 100%;
+      align-content: center;
+      font-weight: 400;
+      display: inline-flex;
+      font-family: "Inter";
+      font-size: 20px;
+      color: #8584A3;
+      text-decoration: none;
+      padding: 8px 16px;
+      margin-bottom: 16px;
+    }
+    li:hover a{
+      background-color: #e5e5ee;
+      border-radius: 16px;
+    }
+    img{
+      margin-right: 8px;
+    }
+    .bagde{
+      text-align: left;
+      width: 100%;
+      align-content: center;
+      font-weight: 500;
+      display: inline-flex;
+      font-family: "Inter";
+      font-size: 20px;
+      color: #0A0A0A;
+      text-decoration: none;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      background-color: #E5E5F7;
+      border-radius: 40px;
+    }
+}
+  
