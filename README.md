@@ -1,6 +1,6 @@
 # belAI
 
-Proyecto realizado para prueba técnica basado en las reglas de el [Juego de la Vida](https://es.wikipedia.org/wiki/Juego_de_la_vida).
+Proyecto realizado para la Hackaton Belcorp 5.0
 
 ## API
 
