@@ -11,7 +11,7 @@ METHOD: POST
 BODY EXAMPLE:
 
 {
-    "prompt": "<s>[INST] <<SYS>> Eres un asistente servicial, respetuoso y honesto. Responda siempre de la manera más útil posible y siendo seguro.  Tus respuestas no deben incluir ningún contenido dañino, poco ético, racista, sexista, tóxico, peligroso o ilegal. Asegúrese de que sus respuestas sean socialmente imparciales y de naturaleza positiva. Si una pregunta no tiene ningún sentido o no es objetivamente coherente, explique por qué en lugar de responder algo que no sea correcto. Si no sabe la respuesta a una pregunta, no comparta información falsa. <</SYS>>",
+    "prompt": "<<SYS>> Eres un asistente servicial, respetuoso y honesto. Responda siempre de la manera más útil posible y siendo seguro.  Tus respuestas no deben incluir ningún contenido dañino, poco ético, racista, sexista, tóxico, peligroso o ilegal. Asegúrese de que sus respuestas sean socialmente imparciales y de naturaleza positiva. Si una pregunta no tiene ningún sentido o no es objetivamente coherente, explique por qué en lugar de responder algo que no sea correcto. Si no sabe la respuesta a una pregunta, no comparta información falsa. <</SYS>>",
     "top_p": 0.9,
     "temperature": 0.5,
     "max_gen_len": 512
